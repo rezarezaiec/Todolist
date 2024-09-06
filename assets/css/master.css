@@ -1,0 +1,138 @@
+/* ------------------ Start: Main Body Styles ------------------ */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #181824;
+}
+/* ------------------ End: Main Body Styles ------------------ */
+
+/* ------------------ Start: Background Image Styles ------------------ */
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(45, 27, 135, 0.8), rgba(69, 42, 122, 0.8)), url('your-background-image-url.jpg') no-repeat center center/cover;
+    z-index: -1;
+}
+/* ------------------ End: Background Image Styles ------------------ */
+
+/* ------------------ Start: Card Styles ------------------ */
+.card {
+    max-width: 900px;
+    width: 100%;
+}
+/* ------------------ End: Card Styles ------------------ */
+
+/* ------------------ Start: Glass Card Styles ------------------ */
+.glass-card {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+/* ------------------ End: Glass Card Styles ------------------ */
+
+/* ------------------ Start: Custom Scrollbar Styles ------------------ */
+#todo-list {
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 0;
+    margin: 0;
+}
+
+/* Webkit scrollbar styling */
+#todo-list::-webkit-scrollbar {
+    width: 12px;
+}
+
+#todo-list::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+#todo-list::-webkit-scrollbar-thumb {
+    background: linear-gradient(to right, rgba(45, 27, 135, 0.8), rgba(69, 42, 122, 0.8)), url('your-background-image-url.jpg') no-repeat center center/cover;
+    border-radius: 10px;
+    border: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+#todo-list::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to right, rgba(45, 27, 135, 0.8), rgba(69, 42, 122, 0.8)), url('your-background-image-url.jpg') no-repeat center center/cover;
+}
+.todo-text {
+    width:70%;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    max-height: 7.2em;
+    line-height: 1.2em;
+}
+
+/* ------------------ End: Custom Scrollbar Styles ------------------ */
+
+/* ------------------ Start: List Group Item Styles ------------------ */
+.list-group-item {
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: white;
+}
+/* ------------------ End: List Group Item Styles ------------------ */
+
+/* ------------------ Start: Completed Todo Item Styles ------------------ */
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+/* ------------------ End: Completed Todo Item Styles ------------------ */
+
+/* ------------------ Start: Primary Button Styles ------------------ */
+.btn-primary {
+    background-color: #3b82f6;
+    border-color: #3b82f6;
+}
+/* ------------------ End: Primary Button Styles ------------------ */
+
+/* ------------------ Start: Link Button Styles ------------------ */
+.btn-link {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+/* ------------------ End: Link Button Styles ------------------ */
+
+/* ------------------ Start: Link Button Hover State Styles ------------------ */
+.btn-link:hover {
+    color: white;
+}
+/* ------------------ End: Link Button Hover State Styles ------------------ */
+
+/* ------------------ Start: Active Filter Button Styles ------------------ */
+.filter-buttons .btn-link.active {
+    color: white;
+}
+/* ------------------ End: Active Filter Button Styles ------------------ */
+
+/* ------------------ Start: Edit and Delete Buttons Styles ------------------ */
+.button-container .btn {
+    margin-left: 5px;
+    font-size: 0.9rem;
+    padding: 0.2rem 0.5rem;
+}
+/* ------------------ End: Edit and Delete Buttons Styles ------------------ */
+
+/* ------------------ Start: Editing Input Styles ------------------ */
+.editing-input {
+    width: 50%;
+    border: 2px solid #3b82f6;
+    border-radius: 5px;
+}
+/* ------------------ End: Editing Input Styles ------------------ */

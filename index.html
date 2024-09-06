@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rezarezaei-T14</title>
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="./assets/plugins/bootsrtap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/plugins/fontawsome/fontawsome/fontawesome.min.css" />
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./assets/css/master.css">
+
+</head>
+
+<body>
+
+
+    <!-- Background Image -->
+    <div class="background-image"></div>
+
+    <!-- Main Container -->
+    <div class="container d-flex justify-content-center align-items-center h-100">
+        <!-- Glass Card -->
+        <div class="card glass-card p-4">
+            <h1 class="text-center mb-4">TODO</h1>
+
+            <!-- TODO Form -->
+            <form id="todo-form" class="d-flex mb-3">
+                <input type="text" id="todo-input" class="form-control me-2" placeholder="Create a new todo...">
+            </form>
+
+            <!-- TODO List -->
+            <ul id="todo-list" class="list-group px-1"></ul>
+
+            <!-- Footer -->
+            <div class="footer d-flex justify-content-between mt-3 align-items-center">
+                <!-- Filter Buttons -->
+                <div class="filter-buttons">
+                    <button class="btn btn-link text-white btn-sm btn-outline-success" id="complete-all-btn">Completed</button>
+                    <button class="btn btn-link text-white btn-sm btn-outline-danger" id="clear-completed-btn">Clear Completed</button>
+                </div>
+
+                <!-- Items Left Count -->
+                <span id="items-left" class="text-white">0 items</span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Plugins JS -->
+    <script src="./assets/plugins/bootsrtap/js/bootstrap.bundle.js"></script>
+    <script src="./assets/plugins/fontawsome/fontawsome/fontawesome.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="./assets/js/todoList.js"></script>
+
+</body>
+
+</html>
